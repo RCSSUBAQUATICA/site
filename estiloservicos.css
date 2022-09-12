@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 0 75px;
+}
+.min{
+    height: 110px;
+}
+.logo img{
+    width: 280px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #7f7f7f;
+    margin: auto 10px;
+    font-family: 'Poppins', sans-serif;
+}
+ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.descricao-cima{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.descricao-cima img{
+    width: 100%;
+    max-height: 30.5vh;
+    opacity: 0.4;
+}
+.descricao-cima h3 {
+    position: absolute;
+    top: 85px;
+    padding: 0 100px;
+    font-size: 52px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px black;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 35px;
+}
+
+.lista-servicos{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+     
+
+}
+.lista-servicos ul{
+   
+        display: flex;
+        list-style-type: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0;
+}
+#navio,
+#engenharia,
+#salvatagem{
+    width: 250px;
+    background-color: #7f7f7f;
+    border-radius: 35px;
+}
+
+#navio:hover,
+#engenharia:hover,
+#salvatagem:hover{
+   position: relative;
+   bottom: 20px;
+   cursor: pointer; 
+
+}
+#bio,
+#ensaios{
+    width: 250px;
+    background-color: #000000;  
+    border-radius: 35px;
+
+}
+#bio:hover,
+#ensaios:hover{
+   position: relative;
+   bottom: 20px;
+   cursor: pointer;
+}
+.lista-servicos ul li img{
+    width: 250px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    
+}
+.lista-servicos ul li h4{
+   text-align: center;
+   color: #ffffff;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   font-family:'Barlow', sans-serif;
+
+}
+.lista-servicos ul li p{
+    text-align: center;
+    text-align: justify;
+    color: #ffffff;
+    margin: 0 15px;
+    font-family:'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+ }
+
+.return{
+    padding: 0 15px;
+    margin: 35px;
+}
+ .return button{
+    border-radius: 25px;
+    border: none;
+    width: 120px;
+    height:50px;
+    background-color: #7f7f7f;
+    color: #ffffff;
+    font-family:'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+ }
+
+.return:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.rodape{
+    background-color:#808080; 
+    font-family: 'Poppins', sans-serif;
+    height: 100%;  
+    display: block;
+    box-shadow: 10px 10px 18px 10px rgba(0, 0, 0, 0.3);
+}
+.container-rodape .social img{
+    width: 30px;
+    padding: 0 3px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.container-rodape .social img:hover{
+    position: relative;
+    bottom: 5px;
+}
+.container-rodape .tel-contato{
+    margin-top: 25px;
+    margin-left: 15px;
+    height: 240px;
+}
+#canto-img{
+   width: 700px;
+   display: block;
+   position: relative;
+   bottom: 300px;
+   left: 600px;
+}
+.container-rodape .tel-contato p{
+    display: block;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #eeeeee;
+}
+.container-rodape .tel-contato .mail{   
+   display: inline-flex;
+   align-items: flex-start;
+}
+.container-rodape .tel-contato .mail:hover{
+   position: relative;
+   bottom: 2px;
+   cursor: pointer; 
+}
+.container-rodape .tel-contato .mail img{
+   width: 28px;  
+   margin-top: 15px;
+   margin-left: 10px;
+}
+.container-postal{
+    display: flex;   
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.container-postal .postal1 p,
+.container-postal .postal1 h4{
+color: #eeeeee;
+}
+.container-postal .postal2 p,
+.container-postal .postal2 h4{
+    margin-left: 85px;
+    color: #eeeeee;
+}
+.rod-pe{
+    background-color: black;
+}
+.rod-pe p{
+    font-size: 14px;
+    text-align: center;
+    color: #e8e8e8;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(imagens/body.png);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo{
+    position: relative;
+    left: 450px;
+    margin: 20px;
+    width: 420px;
+
+}
+input{
+    display: block;  
+    width: 400px;
+    height: 55px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16pt;  
+    background-color: rgb(255, 255, 255,0.09);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+div#corpo-form{
+    /*background-color: aqua;*/
+    width: 420px;
+    margin: 0px auto 0px auto;
+}
+div#corpo-form h1{
+    text-align: center;
+    position: relative;
+    left: 20px;
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;   
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+input[type=submit]{
+    background-color: black;
+    position: relative;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 250px;
+    margin: 10px;
+    left: 100px;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+:-moz-placeholder{
+    color: white;
+}
+::-moz-placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: white
+}
+div#msg-sucesso{
+    width: 420px;
+}
+div#msg-sucesso{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+ }
+div.msg-erro{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px;
+    position: relative;
+}
