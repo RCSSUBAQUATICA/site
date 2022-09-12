@@ -64,12 +64,12 @@ ul li a:hover{
 }
 .containerproje .slide-container .slide .contentproje{
     flex: 1 1 350px;
-    animation: slideContent .8s linear .12s backwards;
+    animation: slideContent .6s linear .10s backwards;
     
 }
 @keyframes slideContent{0%{
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-30px);
 
 }
 
@@ -145,7 +145,7 @@ ul li a:hover{
 .containerproje #next{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
     background-color: #ffffff; ;
     height: 50px;
     width: 50px;
