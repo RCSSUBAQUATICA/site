@@ -221,3 +221,41 @@ color: #eeeeee;
     text-align: center;
     color: #e8e8e8;
 }
+
+@media(max-width:800px){
+
+    .min {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header .logo{
+        width: 50%;     
+    }
+    header .logo img{
+        width: 100%;
+        
+    }
+    .min nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .min nav ul li{
+        margin:2px;
+    }
+    .descricao-cima h3{
+        top: 0;
+        margin-top: 15px;
+    }
+    .lista-servicos nav ul{
+        display: flex;
+        flex-direction: column;    
+    }
+   #canto-img{
+        width: 50%;
+        left: 180px;
+        bottom: 240px;
+    }
+
+    
+}
