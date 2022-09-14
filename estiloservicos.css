@@ -223,14 +223,16 @@ color: #eeeeee;
 }
 
 @media(max-width:800px){
-
-    .min {
+    html{
         width: 100%;
+    }
+    .min {
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
     header .logo{
-        width: 50%;     
+        width: 50vw;     
     }
     header .logo img{
         width: 100%;
@@ -246,14 +248,18 @@ color: #eeeeee;
     .descricao-cima h3{
         top: 0;
         margin-top: 15px;
+        padding: 0;
     }
     .lista-servicos nav ul{
         display: flex;
         flex-direction: column;    
     }
+    .container-rodape .tel-contato .mail img{
+        width: 10px;
+    }
    #canto-img{
         width: 50%;
-        left: 180px;
+       margin-left: -450px;
         bottom: 240px;
     }
 
