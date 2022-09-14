@@ -41,9 +41,8 @@ function inicializar() {
   });
 }
 
-//Função rolagem com menu//
 
-const header = document.querySelector("header");
+const header = document.querySelector("nav"); 
 const logoImg = documentquerySelector("#cablogo");
 
 window.addEventListener("scroll", diminuirHeader);
