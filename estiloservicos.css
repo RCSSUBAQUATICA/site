@@ -257,6 +257,9 @@ color: #eeeeee;
     .container-rodape .tel-contato .mail img{
         width: 10px;
     }
+    .container-rodape .tel-contato .mail p{
+        font-size: 19.5px;
+        }
    #canto-img{
         width: 50%;
        margin-left: -450px;
