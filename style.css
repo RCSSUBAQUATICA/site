@@ -749,12 +749,16 @@ section .trab-img img{
         height: 100%;
         position: relative;
         left: 0;
-
     }
     .cont a{
         font-size: 25px;
-        color: gray;
-         
+        color: gray;         
+    }
+    .cont p{
+        position: relative;
+        bottom: 300px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
     }
 }
 .maps{
@@ -764,6 +768,14 @@ section .trab-img img{
 .maps #mapa{ 
     height: 350px;   
     opacity: 90%;
+}
+@media(max-width:999px){
+    .maps{
+    width: 100%;
+    }
+    .maps #mapa{
+    opacity: 75%;
+    }
 }
 .rodape{
     background-color:#808080; 
@@ -835,6 +847,54 @@ color: #eeeeee;
     font-size: 14px;
     text-align: center;
     color: #e8e8e8;
+}
+
+@media(max-width:999px){
+    .container-postal .postal2 p,
+    .container-postal .postal2 h4{
+        margin-left: 10px;
+    }
+
+    .container-postal .postal1 p,
+    .container-postal .postal2 p{
+    font-size: 10px;
+    }
+    .container-postal .postal1 h4,
+    .container-postal .postal2 h4{
+    font-size: 14px;
+    }
+
+    .container-rodape .tel-contato .mail img{
+        width: 15px;  
+        margin-top: 15px;
+        margin-left: 3px;
+     }
+    .container-rodape .tel-contato p{
+        display: block;
+        font-size: 13px;
+        margin-top: 15px;
+        color: #eeeeee;
+    }
+    #canto-img{
+        width: 150px;
+        display: block;
+        position: relative;
+        bottom: 175px;
+        left: 100px;
+     }
+    .container-rodape .social img{
+        width: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .rodape{
+        width: 100%;
+    }
+
+    .rod-pe p{
+        font-size: 9px;
+        text-align: center;
+    }
 }
 /*------------------Inicio da página SUCESSOS-------------------------------*/
 
