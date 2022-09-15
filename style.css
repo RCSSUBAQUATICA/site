@@ -244,6 +244,9 @@ nav img{
 }
 
 @media(max-width:999px){
+    .containerproje{
+        top: 10px;
+    }
     .containerproje .slide-container .slide .contentproje h3{ 
         font-size: 14px;
         margin-left: 10px;
@@ -268,7 +271,6 @@ nav img{
         padding: 2px;
         font-size: 5px;
         margin-left: 10px;
-        width: 30px;
         height: 5px;
     }
 }
