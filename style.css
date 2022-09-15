@@ -45,6 +45,7 @@ nav{
 @media(max-width:999px){
     nav{
         width: 100vw;
+        height: 35px;
     }
     .nav-list{
         display: flex;
@@ -161,6 +162,43 @@ nav img{
     width: auto;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
 }
+@media(max-width:999px){
+    .containerproje .slide-container .slide{
+       min-height: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 0 0 0;
+    }
+    .containerproje .slide-container:nth-child(1) .slide{
+        background-image: url(./img/trabalho/obra.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        background-position: bottom;
+        padding: 0;
+        margin: 0 0 0 0;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
+    }
+    .containerproje .slide-container:nth-child(2) .slide{
+        background-image: url(img/trabalho/Atendnav.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 0;
+        margin: 0 0 0 0;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)        
+    }
+    .containerproje .slide-container:nth-child(3) .slide{
+        background-image: url(img/trabalho/Atendnav2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 0;
+        margin: 0 0 0 0;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5)
+    }
+
+}
 .containerproje #prev,
 .containerproje #next{
     position: absolute;
@@ -207,27 +245,32 @@ nav img{
 
 @media(max-width:999px){
     .containerproje .slide-container .slide .contentproje h3{ 
-        font-size: 20px;
+        font-size: 14px;
+        margin-left: 10px;
     }
     .containerproje .slide-container .slide .contentproje p{ 
-        font-size: 14px;
-        width: 100%;
+        font-size: 7px;
+        margin-left: 10px;
+        width: 80%;
     }
     .containerproje #prev, 
     .containerproje #next{
         top: 75%;
-        width: 25px;
-        height: 25px;
+        width: 10px;
+        height: 10px;
     }
     .containerproje #next img,
     .containerproje #prev img{
-        width: 25px;
-        height: 25px;
+        width: 10px;
+        height: 10px;
     }
     .containerproje .slide-container .slide .contentproje .btnproj{
         padding: 2px;
+        font-size: 5px;
+        margin-left: 10px;
+        width: 30px;
+        height: 5px;
     }
-
 }
 
 .borda-header{
