@@ -52,14 +52,15 @@ nav{
         margin: 0;        
     }
     .nav-list li{
-        margin: 0;
-        padding: 5px;
+        margin: 0 0 0 0;
+        padding: 0;
         letter-spacing: 0;
 
     }
     .nav-list li a{
-        font-size: 9px;
+        font-size: 6px;
         margin: 0;
+        margin-left: 4px;
     }
     #cablogo{
         width: 23vw;
