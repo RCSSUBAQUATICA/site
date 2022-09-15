@@ -245,7 +245,7 @@ nav img{
 
 @media(max-width:999px){
     .containerproje{
-        top: 40px;
+        top: 30px;
     }
     .containerproje .slide-container .slide .contentproje h3{ 
         font-size: 14px;
