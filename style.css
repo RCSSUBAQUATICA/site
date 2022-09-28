@@ -29,8 +29,24 @@ nav{
 .nav-list li a{
     color: #000000;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
 }
+#area{
+    border: 1px solid gray;
+    border-radius: 25px;
+    background-color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+#area:hover{
+    background-color: #808080e5;
+}
+#area a:hover{
+    color: white;
+    font-weight: bold;
+}
+
 .mobile-menu{
     cursor: pointer;
     display: none;
@@ -58,7 +74,7 @@ nav{
 
     }
     .nav-list li a{
-        font-size: 7px;
+        font-size: 5px;
         margin: 0;
         margin-left: 4px;
         margin-right: 4px;
