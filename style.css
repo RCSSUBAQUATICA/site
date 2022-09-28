@@ -80,6 +80,12 @@ nav{
         margin-right: 4px;
         text-align: center;
     }
+    #area{
+        border: none;        
+    }
+    #area a:hover{
+        font-weight: bold;
+    }
     #cablogo{
         width: 23vw;
         margin-top: 5px;
