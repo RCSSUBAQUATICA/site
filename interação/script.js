@@ -22,11 +22,15 @@ setInterval(next, 5500);
 function inicializar() {
   var coordenadas1 = {lat: -22.85480267072814, lng: -42.332496726981226}; 
   var coordenadas2 = {lat: -23.01680012916889, lng: -43.478354128978346};
+  var coordenadas3 = {lat: -5.106319790550263, lng: -36.31662733373387};
+  var coordenadas4 = {lat: -13.143911866121746, lng: -39.77879252767945};
+
+  
    
 
   var mapa = new google.maps.Map(document.getElementById('mapa'), {
-    zoom: 9.3,
-    center: coordenadas1 
+    zoom: 4.5,
+    center: coordenadas4 
   });
 
   var marker = new google.maps.Marker({
@@ -36,6 +40,11 @@ function inicializar() {
   });
   var marker = new google.maps.Marker({
     position: coordenadas2,
+    map: mapa,
+    title: 'RCS SUBAQUÁTICA - FILIAL'
+  });
+  var marker = new google.maps.Marker({
+    position: coordenadas3,
     map: mapa,
     title: 'RCS SUBAQUÁTICA - FILIAL'
   });
