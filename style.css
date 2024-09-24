@@ -596,8 +596,8 @@ section .clientes{
     flex-direction: column;
 }
 .somos img{
-    height: 350px;
-    width: 400px;
+    height: 320px;
+    width: 370px;
     text-align:justify;
     border-radius: 5px 35px;
     margin: 10px 30px;
