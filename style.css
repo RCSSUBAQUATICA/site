@@ -558,6 +558,13 @@ section .clientes{
 .somos{
     display: flex;   
     align-items: center;
+    padding: 50px;
+}
+
+.valores{
+    display: flex;   
+    
+    flex-direction: column;
 }
 .somos img{
     height: 500px;
