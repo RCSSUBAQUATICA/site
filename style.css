@@ -419,6 +419,29 @@ nav img{
     cursor: pointer; 
 }
 
+.somosbtn button{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: Navy;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px 1px hsl(0, 0%, 0%); 
+}
+.somosbtn a{
+    color: #ffffff;
+}
+.somosbtn button:hover{
+    background-color: MediumAquaMarine;
+    cursor: pointer; 
+}
+
 @media(max-width:999px){
     .cabserv{
         width: 100%;
