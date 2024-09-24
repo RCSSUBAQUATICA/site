@@ -619,6 +619,9 @@ section .clientes{
     .somos{
         display: flex;
         flex-direction: column;
+        padding: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .somos img{
         height: 100%;
