@@ -583,13 +583,11 @@ section .clientes{
     display: flex;   
     align-items: center;
     padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.somos-curto{
-    display: flex;   
-    align-items: center;
-    padding: 50px;
-}
+
 .valores{
     display: flex;   
     
