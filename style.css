@@ -590,7 +590,7 @@ section .clientes{
     display: flex;   
     align-items: center;
     padding: 50px;
-    margin-left: 200px;
+    margin-left: 50px;
     margin-right: 200px;
 }
 
