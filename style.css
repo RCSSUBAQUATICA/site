@@ -586,6 +586,13 @@ section .clientes{
     margin-left: 200px;
     margin-right: 200px;
 }
+.somosHome{
+    display: flex;   
+    align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 
 .valores{
@@ -602,9 +609,23 @@ section .clientes{
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
+.somosHome img{
+    height: 420px;
+    width: 470px;
+    text-align:left;
+    border-radius: 5px 35px;
+    margin: 10px 30px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
 
 
 .somos p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;    
+}
+
+.somosHome p{
     font-family: 'Poppins', sans-serif;
     font-size: 22px;    
 }
@@ -628,6 +649,28 @@ section .clientes{
         width: 100%;
     }
     .somos p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    #quemsomos{
+        margin: 40px 0 40px 0;
+    }
+    .hist{
+        font-size: 20px;
+    }
+    .somosHome{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .somosHome img{
+        height: 100%;
+        width: 100%;
+    }
+    .somosHome p{
         font-size: 14px;
         text-align: justify;
     }
