@@ -32,29 +32,34 @@ site/
    cd site
    ```
 
-2. **Crie uma branch para sua alteração**
+2. **Atualize o repositório local com as últimas alterações do remoto**
+   ```bash
+   git pull origin main
+   ```
+
+3. **Crie uma branch para sua alteração**
    ```bash
    git checkout -b minha-feature
    ```
 
-3. **Faça as alterações desejadas** nos arquivos HTML, CSS ou JS.
+4. **Faça as alterações desejadas** nos arquivos HTML, CSS ou JS.
 
-4. **Adicione os arquivos modificados ao stage**
+5. **Adicione os arquivos modificados ao stage**
    ```bash
    git add .
    ```
 
-5. **Faça o commit das alterações**
+6. **Faça o commit das alterações**
    ```bash
    git commit -m "Descrição clara da alteração"
    ```
 
-6. **Envie a branch para o repositório remoto**
+7. **Envie a branch para o repositório remoto**
    ```bash
    git push origin minha-feature
    ```
 
-7. Abra um **Pull Request** no GitHub para revisão.
+8. Abra um **Pull Request** no GitHub para revisão.
 
 ## Tecnologias Utilizadas
 
